@@ -1,0 +1,10 @@
+# 算命 skill 运行依赖
+# 安装：pip install -r requirements.txt
+#
+# ephem      : 仅 scripts/astrology.py（星座占星）需要
+# lunardate  : 仅农历日期展示需要（缺失不影响排盘，p0_validators 已容错）
+#
+# 以下为可选（仅交叉验证/测试用，不影响功能）：
+# lunar_python : 排盘正确性交叉验证（tests/ 用）
+ephem==4.2.1
+lunardate>=0.2.2
